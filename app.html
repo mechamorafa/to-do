@@ -1,13 +1,10 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <title>To do List</title>
+        <meta content="text/html; charset=utf-8" />
+        <link rel="stylesheet" href="src/style.css">
 
-        <style>
-            .item {font: 16px Georgia;padding: 5px; list-style: none;background: #F4F4F4; margin-bottom: 1px; border-bottom: 1px solid #DDD;}
-            .item:hover {background: rgb(83, 65, 65);}
-            .item-link {margin-left: 5px; font-size: small;}
-            ul {list-style: none; padding: 0px;}
-        </style>
 
 
     </head>
@@ -15,10 +12,13 @@
         <div id="app">
           <ul>
           </ul>
-          <input type="text" placeholder="Digite um todo">
+          <input type="text" placeholder="Digite a tarefa">
+          
+          <input type="date" id="start" value="2023-06-01" min="2024-06-01" max="2025-12-31">
+
           <button>Adicionar</button>
         </div>
 
-        <script src="app.js"></script>
+        <script src="js/app.js"></script>
     </body>
 </html>
