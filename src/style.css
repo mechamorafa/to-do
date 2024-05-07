@@ -5,5 +5,5 @@ body {margin: 10px auto;}
 
 #app .item {font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;padding: 5px; list-style: none;background: #F4F4F4; margin-bottom: 1px; border-bottom: 1px solid #DDD;}
 #app .item:hover {background: rgb(83, 65, 65);}
-#app .item-link {margin-left: 5px; font-size: small;}
+#app .item-link {margin-left: 5px; font-size: 10px; text-align: right; float: right;}
 ul {list-style: none; padding: 0px;}

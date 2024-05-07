@@ -20,7 +20,7 @@ function renderTodos() {
         var pos = todos.indexOf(todo);
         linkElement.setAttribute('onclick', 'deleteTodo(' + pos + ')');
 
-        var linkText = document.createTextNode('Excluir');
+        var linkText = document.createTextNode('x');
 
         linkElement.appendChild(linkText);
 
